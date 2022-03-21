@@ -1,0 +1,224 @@
+Loodusravikeskust üritasin luua üle kahekümne aasta tagasi , Maarjamõisa taastusravi keskust algatades .
+O O O O O  O         O O B-ORG I-ORG I-ORG O O
+O O O O O (I-DATE/O) O O B-ORG I-ORG I-ORG O O
+
+Rohkem tuleb peale maksta OÜ Slopsile , kes kasutab autokumme Tallinnas vana karjääri täitmiseks .
+O O O O  B-ORG         I-ORG        O O O O B-GPE O O O O
+O O O O (B-ORG/B-ORG) (I-PER/I-ORG) O O O O B-GPE O O O O
+
+Põhiliselt segaehitusprahiga täidetav karjäär peaks täis saama 20 aasta pärast .
+O O O O O O O B-DATE I-DATE          I-DATE         O
+O O O O O O O O     (I-DATE/I-DATE) (I-DATE/I-DATE) O
+
+1993. aastal toimunud ministrite konverentsil Luzernis võeti vastu Kesk- ja Ida-Euroopa keskkonnakaitse tegevusprogramm .
+B-DATE I-DATE O O O B-GPE O O B-LOC I-LOC I-LOC        O O O
+B-DATE I-DATE O O O B-GPE O O B-LOC O    (I-LOC/I-LOC) O O O
+
+Kuni 31. detsembrini 1998 on ostueesõigusega erastatava maa müügihinnaks 1993. aasta maa maksustamishind .
+O B-DATE I-DATE          I-DATE         O O O O O B-DATE I-DATE O O O
+O O     (I-DATE/I-DATE) (I-DATE/I-DATE) O O O O O B-DATE I-DATE O O O
+
+R. A. Viljandist
+B-PER I-PER        B-GPE
+O    (I-PER/I-PER) B-GPE
+
+Seadus on kooskõlas tooteohutuse ja toote nõuetekohasuse tõendamise seaduse põhimõtetega .
+O O O B-PROD I-PROD I-PROD I-PROD          I-PROD          I-PROD         O O
+O O O O      O      O     (I-PROD/I-PROD) (I-PROD/I-PROD) (I-PROD/I-PROD) O O
+
+Lisaks Mart Mägra raamatus “ Linnud rahva keeles ja meeles ” toodud musträhnilugudele olen kuulnud pajatust , et musträhnil olla metsas peale laulatatud naise ka kallike , keda ta heledal häälel kutsub : “ Pille !
+O B-PER I-PER O O B-PROD I-PROD I-PROD I-PROD I-PROD         O O O O O O O O O     O O O O O O O O O O O O O O O B-PER O
+O B-PER I-PER O O B-PROD I-PROD I-PROD O     (I-PROD/I-PROD) O O O O O O O O B-PER O O O O O O O O O O O O O O O B-PER O
+
+Äärislaiksus kahjustab kuni 40% Lääne maakonnas .
+O O O B-PERCENT  B-GPE         I-GPE        O
+O O O B-PERCENT (B-LOC/B-GPE) (I-GPE/I-GPE) O
+
+Veiste kasvatamise ja aretamise kogemusi jagasid sadakonnale huvilisele õppetalu juht Leino Vessart ja farmijuhataja Tiina Võrel .
+O O O O O O O O  O         B-TITLE          B-PER I-PER O B-TITLE B-PER I-PER O
+O O O O O O O O (B-ORG/O) (I-TITLE/B-TITLE) B-PER I-PER O B-TITLE B-PER I-PER O
+
+Limusiin on oma hea liha ( väike kont ) , veiste kerge poegimise ja tõu hõlpsa ristamise tõttu maailmas hinnatud lihaveis , ent Eestis on tema võidukäiku takistanud eestlaste toitumistavad ( eelistatakse sealiha ) .
+O     O O O O O O  O        O O O O O O O     O     O O O O O O O B-GPE O O O O O O O O O O O
+B-PER O O O O O O (I-PER/O) O O O O O O B-GPE I-GPE O O O O O O O B-GPE O O O O O O O O O O O
+
+Nisuaretaja Anne Ingver arvas , et uued , alles tinglike nimedega Jõgeva suvinisusordid “ Helle ” , “ Lea ” ja “ Johanna ” jõuavad tootmisse .
+B-TITLE B-PER I-PER O O O O O O O O B-GPE O O B-PROD O O O  B-PROD         O O O B-PROD O O O O
+B-TITLE B-PER I-PER O O O O O O O O B-GPE O O B-PROD O O O (I-PROD/B-PROD) O O O B-PROD O O O O
+
+Vändras nädalavahetusel toimunud Eesti valdade VI suvemängude magnetiks kujunes köievedu , mis jättis laupäeva pärastlõunal kergejõustiku ja võrkpalli peaaegu publikuta .
+ B-GPE         B-DATE         O B-EVENT I-EVENT I-EVENT I-EVENT O O O O O O  B-DATE          B-TIME         O O O O O O
+(B-GPE/B-GPE) (I-DATE/B-DATE) O B-EVENT I-EVENT I-EVENT I-EVENT O O O O O O (B-DATE/B-DATE) (I-TIME/B-TIME) O O O O O O
+
+Maanteede atlas käes , sõrm Kurgja nime juures , kirus andunud orienteeruja korraldajaid , kelle pärast ta juba peaaegu kogu Carl Robert Jakobsoni suurtalu maa oli läbi kamminud .
+O     O     O O O B-GPE O O O O O O O O O O O O O O  B-PER         I-PER         I-PER         O        O O O O O
+B-ORG I-ORG O O O B-PER O O O O O O O O O O O O O O (B-PER/B-PER) (I-LOC/I-PER) (I-LOC/I-PER) (I-LOC/O) O O O O O
+
+Kui Enno sajandi alul eesti kirjandusse jõudis , avaldades 1909. a “ Uued luuletused ” ja aasta hiljem “ Hallid laulud ” , läks luuletaja sõnade õnge koguni Tuglas , Lindest ja Hindreyst kõnelemata .
+O B-PER O O O O O O O B-DATE I-DATE O B-PROD I-PROD O O B-DATE I-DATE         O B-PROD I-PROD O O O O O O O B-PER O B-PER O B-PER O O
+O B-PER O O O O O O O B-DATE I-DATE O O      O      O O O     (I-DATE/I-DATE) O B-PROD I-PROD O O O O O O O B-PER O B-PER O B-PER O O
+
+Nüüd on lettidel novellikogumik “ Mälestusi eelmistest eludest ” Oskar Kruusilt .
+O O O O O B-PROD I-PROD          I-PROD         O B-PER I-PER O
+O O O O O O     (I-PROD/I-PROD) (I-PROD/I-PROD) O B-PER I-PER O
+
+Esimese suuna pealt on trükki jõudnud asjalikud raamatud väliseesti kirjandusest , tulekul on uurimus Hella Wuolijoest .
+O O O O O     O O O O O O O O O B-PER I-PER         O
+O O O O B-PER O O O O O O O O O O    (I-PROD/I-PER) O
+
+Teisest laadist on lugejal kindlasti meeles kaks aastat tagasi ilmunud Kruusi avameelne ja seetõttu elevust tekitanud meenutustekogu “ Unistuste purunemise aastad .
+O O O O O O B-DATE I-DATE I-DATE O B-PER O O O O O O O B-PROD I-PROD         I-PROD O
+O O O O O O B-DATE I-DATE I-DATE O B-PER O O O O O O O O     (I-PROD/I-PROD) O      O
+
+Ella Ilbaku urni muldasängitamisel oli inimesi Estoniast , Teatri- ja Muusikamuuseumist , Tallinna Balletikoolist , Kutseliste Tantsijate Liidust , Kultuuriministeeriumist ja Teatriliidust ning lihtsalt teatri- ja tantsuhuvilisi .
+B-PER I-PER O O O O B-ORG O B-ORG I-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG I-ORG        O B-ORG O B-ORG O O O O O O
+B-PER I-PER O O O O B-ORG O B-ORG I-ORG I-ORG O B-ORG I-ORG O O     O    (I-ORG/I-ORG) O B-ORG O B-ORG O O O O O O
+
+Iga aasta 1. augustil peetakse küla sünnipäeva .
+O  O          B-DATE          I-DATE         O O O O
+O (I-DATE/O) (I-DATE/B-DATE) (I-DATE/I-DATE) O O O O
+
+Tõlkinud OÜ ETONIM .
+O  B-ORG         I-ORG        O
+O (B-ORG/B-ORG) (I-PER/I-ORG) O
+
+Sellisel kujul Korneliuse juhitava kirikliku struktuuri registreerimine oleks kirikute ja koguduste seaduse rikkumine , sest paragrahvi 13 lõige 2 ja 3 sätestavad , et kiriku , koguduse või koguduste liidu nimi peab olema selgelt eristatav teiste Eestis registreeritud kirikute , koguduste ja koguduste liitude nimedest . * * * Peapiiskop Kornelius väidab , et usuasjade talitus on EAÕKd registreerides rikkunud kirikute ja koguduste seadust .
+O O O     O O O O O O      O O  O         O O O O O O O O O O O O O O O O O O O O O O O O O     O O O O O O O O O O O O O       O     O O O O     O     O O     O O O      O  O          O         O
+O O B-PER O O O O O B-PROD O O (I-PROD/O) O O O O O O O O O O O O O O O O O O O O O O O O B-GPE O O O O O O O O O O O O B-TITLE B-PER O O O B-ORG I-ORG O B-ORG O O B-PROD O (I-PROD/O) (I-PROD/O) O
+
+Pärast kohtumist teatas sinodi teine sekretär Henn Tosso , et nad taotlevad EAÕK täiskogu kokkukutsumist vabariigi presidendilt .
+O O O O     O  O          O     O     O O O O O     O     O O O O
+O O O B-ORG O (I-TITLE/O) B-PER I-PER O O O O B-ORG I-ORG O O O O
+
+Õigeusu Nuia koguduses olevat aga asjast nii aru saadud , et avaldus tuleb saata usuasjade talitusele .
+O  B-ORG        I-ORG O O O O O O O O O O O O     O     O
+O (I-ORG/B-ORG) O     O O O O O O O O O O O B-ORG I-ORG O
+
+Tundub , et niisugune hetk võis olla 1917. aasta sügisel ja 1918. aasta esimestel päevadel , seega 78 aastat tagasi - Soome ja Eesti sünniaegadel .
+O O O O O O O B-DATE I-DATE O O B-DATE I-DATE I-DATE I-DATE O O B-DATE I-DATE          I-DATE         O B-GPE O B-GPE O O
+O O O O O O O B-DATE I-DATE O O B-DATE I-DATE O      O      O O O     (I-DATE/I-DATE) (I-DATE/I-DATE) O B-GPE O B-GPE O O
+
+Tallinnas Maapäev ning Helsingis Eduskund kuulutasid end kõrgeima võimu kandjaks 15. novembril 1917 .
+B-GPE B-ORG O B-GPE B-ORG O O O O O B-DATE I-DATE         I-DATE O
+O     B-ORG O O     O     O O O O O O     (I-DATE/I-DATE) O      O
+
+Soome iseseisvumise poolt olid 1917 . aastal peaaegu kõik poliitilised jõud .
+B-GPE O O O B-DATE I-DATE I-DATE         O O O O O
+B-GPE O O O B-DATE O     (I-DATE/I-DATE) O O O O O
+
+BNSi sõnul kahtlustatakse eriteenistuse töötajaid kahe ärimehe peksmises ööl vastu 1. juunit 1992. aastal Harjumaal Assakul .
+B-ORG O O B-ORG O O O O B-TIME I-TIME I-TIME          I-TIME          I-TIME          I-TIME         B-GPE B-GPE O
+B-PER O O O     O O O O O      O     (I-DATE/I-TIME) (I-DATE/I-TIME) (I-DATE/I-TIME) (I-DATE/I-TIME) B-GPE B-GPE O
+
+Omamoodi analoog möödunud aastal Tartus taasalustanud eesti ülevaatefestivalile Draama .
+O O B-DATE I-DATE         B-GPE O O     O B-PROD  O
+O O O     (I-DATE/I-DATE) B-GPE O B-GPE O B-EVENT O
+
+“ Hedda ” puhul oli tegu tõsimeelselt igava klassikaga , “ Suveöö unenägu ” ( Stockholmi teatrikooli ja Orionteaterni ühistöö ) oli vastandina küll hästi liikuv ja kirju , jaapani teatri elementidega , ent ei tundunud Shakespeare'i tekstist ja mõttest suuremat hoolivat .
+O B-PROD O O O O O O O O O  B-PROD         I-PROD         O O B-ORG I-ORG O B-ORG O O O O O O O O O O O O O O O O O B-PER O O O O O O
+O B-PER  O O O O O O O O O (B-ORG/B-PROD) (I-PROD/I-PROD) O O B-ORG I-ORG O B-ORG O O O O O O O O O O O O O O O O O B-PER O O O O O O
+
+Samas mõjus rootsi keelest mitte tuhkagi taipavale vaatajale igati sümpaatselt Sara Lidmani “ Hobune ja toonekurg ” ( Orionteatern ) - väga heas esituses folk-rock performance , värvikas storytelling , kus kogu rõhk oli näitlejal , tema mässamistel ja nende täpsusel .
+O O O O O O O O O O B-PER I-PER        O B-PROD I-PROD I-PROD O O B-ORG  O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O    (I-PER/I-PER) O B-PROD I-PROD I-PROD O O B-PROD O O O O O O O O O O O O O O O O O O O O O O O
+
+Esimese kvartaliga on Forekspank täitnud ligi poole grupi 75 miljoni krooni suurusest 1997. aasta kasumiprognoosist , mille toel võib aktsia juba lähiajal läbi murda 200 krooni piirist .
+O O O B-ORG O O O O B-MONEY I-MONEY I-MONEY I-MONEY B-DATE I-DATE         O O O O O O O O O O B-MONEY I-MONEY O O
+O O O B-ORG O O O O B-MONEY I-MONEY I-MONEY O       O     (I-DATE/I-DATE) O O O O O O O O O O O       O       O O
+
+Ettevõtete kasumi suurenemine ning raha pidev juurdevool lubavad Tallinna börsil prognoosida pikaajalises perspektiivis jätkuvalt tõusvat trendi , kuigi lühiajaliselt võib erinevatel põhjustel toimuda ka mõningane tagasilangus .
+O O O O O O O O  B-ORG         I-ORG        O O O O O O O O O O O O O O O O O
+O O O O O O O O (B-GPE/B-ORG) (I-ORG/I-ORG) O O O O O O O O O O O O O O O O O
+
+Pronksmedalimängudes alistas Tallinna Palling nii kodus kui võõrsil Viljandi Volle ühesuguse tulemusega 3 : 1.
+O O  B-ORG         I-ORG        O O O O B-ORG I-ORG O O O O O
+O O (B-PER/B-ORG) (I-ORG/I-ORG) O O O O B-ORG I-ORG O O O O O
+
+Meistrisarjas viienda kaotuse saanud Manchesteri klubi polnud enne läinud laupäeva koduväljakul liigamängu kaotusekibedust tundnud mullu 2. novembrist alates ( tookord kaotati 1 : 2 Chelsea'le ) , Derby Countyle oli aga nüüdne võit võõral väljakul sel hooajal alles teine ( esimene saadi mullu 9. septembril Blackburni üle 2 : 1 ) .
+O O O O B-ORG O     O O O  O         O O O O B-DATE I-DATE I-DATE O O O O O O O B-ORG O O B-ORG I-ORG O O O O O O O O O O O O O B-DATE I-DATE I-DATE B-ORG O O O O O O
+O O O O B-ORG I-ORG O O O (I-DATE/O) O O O O B-DATE B-DATE I-DATE O O O O O O O B-ORG O O B-ORG I-ORG O O O O O O O O O O O O O B-DATE B-DATE I-DATE B-ORG O O O O O O
+
+Vastne linnavalitsuse liige Vladimir Panov hakkab saama ametipalka 10800 krooni kuus ja lisaks sellele lisatasu 2000 krooni kuus alates ametisseastumise päevast .
+O  O         O          B-PER I-PER O O O B-MONEY I-MONEY O O O O O B-MONEY I-MONEY O O O O O
+O (B-ORG/O) (I-TITLE/O) B-PER I-PER O O O B-MONEY I-MONEY O O O O O B-MONEY I-MONEY O O O O O
+
+Tallinna linna delegatsioon püüdis märtsis Cannes'is rahvusvahelisel kinnisvaramessil osaledes leida ettevõtmisele välismaist investorit .
+B-GPE O O O  B-DATE           B-EVENT        I-EVENT I-EVENT O O O O O O
+B-GPE O O O (B-EVENT/B-DATE) (I-GPE/B-EVENT) O       O       O O O O O O
+
+Laupäeva lõuna paiku andsid Operatsioon Õ ja Maie Parrik Harju mäel endise Varblase kohviku juures kodutute koerte varjupaiga abistamiseks tasuta kontserdi .
+ B-TIME          I-TIME         I-TIME O B-ORG I-ORG O B-PER I-PER B-LOC I-LOC O B-ORG I-ORG O O     O     O     O O O O
+(B-DATE/B-TIME) (I-TIME/I-TIME) O      O B-PER I-PER O B-PER I-PER B-GPE I-GPE O B-LOC I-LOC O B-ORG I-ORG I-ORG O O O O
+
+Kõik see pidi ära hoidma viinalubade võltsimist , sest et möödaläinud aastal üle poole viina viinapoodidest võltsitud tshekkidega müüdi .
+O O O O O O O O O O B-DATE I-DATE         O O O O O O O O
+O O O O O O O O O O O     (I-DATE/I-DATE) O O O O O O O O
+
+Erinevalt senistest missivalimistest nimetati publikumiss alles pärast Miss Tartu väljakuulutamist , publikulemmiku teatas õhtu juht Emil Rutiku all diskosaalis .
+O O O O O O O  B-PROD           I-PROD          O O O O O O B-PER I-PER O O O
+O O O O O O O (B-EVENT/B-PROD) (I-TITLE/I-PROD) O O O O O O B-PER I-PER O O O
+
+Selliste võrgustike loomine olevat Põhjamaade Ministrite Nõukogu lähiajaline ülesanne .
+O O O O B-ORG I-ORG I-ORG        O O O
+O O O O B-LOC O    (I-ORG/I-ORG) O O O
+
+Tartu vallas eile 15.45
+B-GPE O        B-TIME          I-TIME
+B-GPE I-GPE   (B-DATE/B-TIME) (I-TIME/I-TIME)
+
+Eesti valitsus on vastu võtnud määruse “ Inimeste kaitsepookimise riiklik arengukava nakkushaiguste vältimiseks aastani 2000 ” .
+B-ORG I-ORG O O O O O B-PROD I-PROD I-PROD I-PROD         I-PROD I-PROD I-PROD I-PROD         O O
+B-ORG I-ORG O O O O O O      O      O     (I-PROD/I-PROD) O      O      O     (I-PROD/I-PROD) O O
+
+Nagu ütles Ülenurmel asuva Tartu lennujaama ilmateenistuse vaatleja , algas sadu kella ühe ajal öösel ja kestis üheksani hommikul .
+O O B-GPE O B-ORG I-ORG I-ORG O O O O B-TIME I-TIME I-TIME          I-TIME         O O B-TIME I-TIME O
+O O O     O B-GPE O     O     O O O O O      O     (I-TIME/I-TIME) (I-TIME/I-TIME) O O O      B-TIME O
+
+Sõudmisvõistlustega tehakse Rios algust kohe avamise järel – veele tullakse juba 6. augusti hommikul , kui stardis on ka Eesti neljapaat .
+O O B-GPE O O O O O O O O  B-DATE          I-DATE          B-TIME         O O O O O B-GPE O O
+O O B-GPE O O O O O O O O (B-TIME/B-DATE) (I-DATE/I-DATE) (I-TIME/B-TIME) O O O O O B-GPE O O
+
+Kogu sõudmisvõistluse programm peetakse Rios –13. augustini .
+O O O O B-GPE B-DATE I-DATE         O
+O O O O B-GPE O     (I-DATE/I-DATE) O
+
+Austraallased on neljapaatide konkurentsis ikka tugevad tegijad olnud – eelmise aasta MMil saavutati Eesti ees teine koht ja neli aastat tagasi toimunud Londoni OMil võideti pronksmedali .
+O O O O O O O O O B-DATE I-DATE B-EVENT O B-GPE O O O O B-DATE I-DATE I-DATE O  B-EVENT         I-EVENT          O O O
+O O O O O O O O O B-DATE I-DATE I-EVENT O B-GPE O O O O B-DATE I-DATE I-DATE O (B-GPE/B-EVENT) (I-EVENT/I-EVENT) O O O
+
+Kauplemissüsteemi toimima saamine ( loe : CO2 hinna kergitamine ja seeläbi keskkonnasõbralike muutuste genereerimine ) perioodil 2021–2030 on olnud arutluse all alates 2015. aastast
+O O O O O O O      O O O O     O O O O O  B-DATE         O O O O O B-DATE I-DATE
+O O O O O O B-PROD O O O B-ORG O O O O O (I-DATE/B-DATE) O O O O O B-DATE I-DATE
+
+Eesti enampakkumise ühikute kogus perioodil 2021–2030 on ligikaudu 56 miljonit – läbirääkimiste käigus võib see veel muutuda .
+B-GPE O O O O  B-DATE         O O O O O O O O O O O O
+B-GPE O O O O (I-DATE/B-DATE) O O O O O O O O O O O O
+
+Tulemas on taas igakevadised Eesti mee päevad , seekord 9. ja 10. märtsil Pirita Lillepaviljonis .
+O O O O B-EVENT I-EVENT I-EVENT O O B-DATE I-DATE I-DATE          I-DATE         B-LOC I-LOC O
+O O O O B-EVENT I-EVENT I-EVENT O O B-DATE O     (I-DATE/I-DATE) (I-DATE/I-DATE) B-LOC I-LOC O
+
+Kohal on mesindussaadustega ravi konsultant , Tartu Ülikooli Kliinikumi arst-õppejõud Ilmar Särg .
+O O O O  O          O B-ORG I-ORG I-ORG B-TITLE B-PER I-PER O
+O O O O (I-TITLE/O) O B-ORG I-ORG I-ORG B-TITLE B-PER I-PER O
+
+Viimastel päevadel on ohtralt kirjutatud sotsiaaldemokraatide esimehe Jevgeni Ossinovski väitest " Eesti meestega on üldse üks suur probleem " .
+O O O O O B-ORG B-TITLE          B-PER I-PER O O B-GPE O O O O O O O O
+O O O O O O    (I-TITLE/B-TITLE) B-PER I-PER O O B-GPE O O O O O O O O
+
+Lootsin , et näiteks logitech Z-2300 suudavad midagi kui kallima otsa 2.1 kõlarid .
+O O O O  B-PROD         I-PROD         O O O O O O      O O
+O O O O (B-ORG/B-PROD) (I-PROD/I-PROD) O O O O O B-PROD O O
+
+Kas Denon PMA-500AE võim oleks mulle paras ?
+O  B-PROD         I-PROD         O O O O O
+O (B-PER/B-PROD) (I-PROD/I-PROD) O O O O O
+
+Huvitav , et nad üle lahe vaid 179-230 dollarit maksavad .
+O O O O O  O        O B-MONEY I-MONEY O O
+O O O O O (I-LOC/O) O B-MONEY I-MONEY O O
+
+soovitatud " muusikakeskus " on kuulatud , võrdluseks SE lamp , sellepärast soovitan .
+O O     O     O O O O O  O         O        O O O O
+O B-ORG I-ORG O O O O O (B-ORG/O) (I-PER/O) O O O O
+
