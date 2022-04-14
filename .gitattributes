@@ -1,1 +1,2 @@
 tartuNLP/ filter=lfs diff=lfs merge=lfs -text
+tartuNLP/* filter=lfs diff=lfs merge=lfs -text
