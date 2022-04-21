@@ -4,5 +4,5 @@ output/
 models/
 *venv*/
 log/
-tartuNLP/EstBERT/
+tartuNLP/*
 transformers/
