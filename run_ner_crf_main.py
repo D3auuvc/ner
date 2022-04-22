@@ -57,6 +57,11 @@ require_version("datasets>=1.8.0",
 
 logger = logging.getLogger(__name__)
 
+# - Avoid using tokenizers before the fork if possible
+# - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+# huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 @dataclass
 class ModelArguments:

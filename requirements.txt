@@ -5,3 +5,4 @@ torch
 seqeval
 accelerate
 wandb
+pytorch-crf
