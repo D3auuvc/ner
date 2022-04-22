@@ -46,6 +46,7 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
 from transformers.integrations import WandbCallback
+from model.estbertcrf import EstBertCRF
 
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
@@ -292,7 +293,7 @@ def main():
             use_auth_token=True if model_args.use_auth_token else None,
         )
 
-    model = AutoModelForTokenClassification.from_pretrained(
+    model = EstBertCRF.from_pretrained(
         model_args.model_name_or_path,
         from_tf=bool(".ckpt" in model_args.model_name_or_path),
         config=config,
