@@ -14,6 +14,6 @@ source venv/bin/activate
 wandb login
 WANDB_PROJECT=EstNewNER
 
-CONFIG_PATH=config/config_ner_joint_lr1e-5_s1024.json
+CONFIG_PATH=config/config_ner_crf_joint_lr1e-5_s1024.json
 
 python run_ner_crf_main.py $CONFIG_PATH
