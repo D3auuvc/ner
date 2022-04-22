@@ -61,6 +61,7 @@ logger = logging.getLogger(__name__)
 # - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
 # huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["CUDA_LAUNCH_BLOCKING"] = 1 
 
 
 @dataclass
