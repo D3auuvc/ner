@@ -1,5 +1,3 @@
-# EstBERT_NER
-
 # Estonian NER model based on EstBERT
 
 This model is a fine-tuned version of [tartuNLP/EstBERT](https://huggingface.co/tartuNLP/EstBERT) on the Estonian NER dataset. The model was trained by tartuNLP, the NLP research group at the institute of Computer Science at the University of Tartu.
